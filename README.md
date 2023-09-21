@@ -4,7 +4,7 @@
 Bem-vindo à página de demonstração da "New Home", uma empresa fictícia de consultoria imobiliária dedicada a encontrar o lugar perfeito para você. Esta landing page é um projeto de site de exemplo criado por mim, Ana Julia Nunes Melo, para demonstrar habilidades de desenvolvimento web.
 
 ✨ Características:
-- Design moderno e responsivo.
+- Design moderno.
 - Informações detalhadas sobre os serviços da New Home.
 - Galeria de fotos de propriedades disponíveis.
 
@@ -21,3 +21,6 @@ Se você tiver alguma pergunta ou feedback sobre este projeto, sinta-se à vonta
 Aproveite a visita à landing page New Home e fique à vontade para explorar o código-fonte deste projeto!
 
 #desenvolvimentoweb #landingpage #webdesign #imaginarycompany
+
+
+
