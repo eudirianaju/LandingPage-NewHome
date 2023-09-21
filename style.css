@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@500&family=IBM+Plex+Sans:wght@600&family=Mukta&family=Oswald:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+ /*  paleta de cores  */
+:root {
+    --fundo: #1b1b1b;
+    --letras: #c7c5c5;
+    --subt: #a3a3a3;
+    --logo: #e7e7e7;
+    --big-font: 3rem;
+    --h2-font: 2.3rem;
+    --p-font: 1.3rem;
+}
+
+
+
+ /*  body  */
+body {
+    align-items: center;
+    color: var(--letras);
+    background: var(--fundo);
+}
+
+
+
+ /*  datalhes navbar  */
+header {
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--fundo);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    transition: all .50s ease;
+}
+
+
+
+ /*  cor do logo ou medidas se for logo de imagem  */
+.logo{
+    font-size: 20px;
+    color: var(--logo);
+}
+
+
+
+ /*  tirar a quebra de linha da navbar  */
+.navbar {
+    display: flex;
+}
+
+
+
+ /*  letras da navbar */
+.navbar a {
+
+    color: var(--letras);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 22px;
+    transition: all .50s ease;
+}
+
+
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/imagem22-956690.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+.titulo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #cacaca;
+}
+
+.titulo h2{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 3.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #d3d3d3;
+}
+
+
+
+
+
+
+
+
+
+.sobre {
+    background-color: var(--fundo); /* Cor de fundo do container */
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    gap: 20px; /* Espaço entre as divisões */
+    margin-left: 4rem;
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+}
+
+
+
+.sobrenos h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 2rem; /* Valor ajustado para evitar sobreposição */
+    text-align: center;
+    color: #adadad;
+    flex: 1; /* Ocupa o espaço disponível à esquerda */
+    margin-left: 6rem;
+
+
+}
+
+.sobrenos p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 1rem; /* Valor ajustado para evitar sobreposição */
+    text-align: center;
+    color: #afacac;
+    flex: 1; /* Ocupa o espaço disponível à esquerda */
+    margin-left: 6rem;
+
+}
+
+
+
+
+
+
+.carrossel {
+    width: 650px;
+    height: 500px;
+    margin: 0 auto; /* Centralize o carrossel horizontalmente na página */
+}
+
+/* Estilize as imagens dentro do carrossel para que se ajustem às dimensões */
+.carrossel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Mantenha a proporção e ajuste a imagem ao contêiner */
+}
+
+
+
+
+
+.moderno{
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.moderno h4{
+    color: var(--letras);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+
+.moderno p{
+    color: var(--letras);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+.cards {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; /* Centraliza o conteúdo dentro do cartão */
+    margin-bottom: 5rem
+}
+
+.cards > div {
+    display: inline-block; /* Coloca os cartões lado a lado */
+    vertical-align: top; /* Alinha os cartões no topo */
+    margin: 30px; /* Adicione margem entre os cartões para espaçamento */
+    width: 22rem;
+    background-color: #4d4c4c00; /* Cor de fundo opcional */
+    padding: 20px; /* Espaçamento interno opcional */
+    border: 1px solid #4b4a4a; /* Borda opcional */
+    height: 12rem;
+}
+
+
+.cards h5{
+    color: var(--letras);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; /* Centraliza o conteúdo dentro do cartão */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+
+.cards p{
+    color: var(--subt);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; /* Centraliza o conteúdo dentro do cartão */
+    font-size: 15px;
+    display: block;
+
+}
+
+
+
+
+
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+
+
+
+.banner-img {
+    overflow: hidden;
+}
+
+
+
+
+.banner-img img {
+    height: 25rem;
+    width: 40rem;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+.banner-img:hover img {
+    transform: scale(1.1);
+}
+
+
+.venda h6{
+    margin-top: 7rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Estilize o contêiner do catálogo */
+.catalogo {
+    display: flex; /* Exibe os cards em uma linha */
+    justify-content: center; /* Centralize os cards horizontalmente */
+    flex-wrap: wrap; /* Quebre para a próxima linha se o espaço for insuficiente */
+    margin-top: 2rem;
+}
+
+/* Estilize cada card */
+.card {
+    border-radius: 30px;
+    margin: 0 1rem 2rem; /* Adicione margens para separar os cards */
+    padding: 10px;
+    border: 1px solid #929292;
+    box-sizing: border-box;
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    height: 30rem;
+    width: 20rem;
+}
+
+.card img {
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 18rem;
+    width: 18rem;
+    display: block; /* Remova o espaço extra abaixo da imagem */
+}
+
+.card h3 {
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.card p {
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+.icon-location {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #ebebeb; /* Altere a cor para a desejada */
+}
+
+
+
+.contato{
+    background-color: #7e7e7e18;
+    height: 15rem;
+}
+
+
+.contato h6 {
+    padding: 30px;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+    display: flex; /* Exibe os cards em uma linha */
+    justify-content: center; /* Centralize os cards horizontalmente */
+    flex-wrap: wrap; /* Quebre para a próxima linha se o espaço for insuficiente */
+}
+
+
+.tel {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    margin: 0 1rem 2rem; /* Adicione margens para separar os cards */
+    padding: 10px;
+    border: 1px solid #414141;    box-sizing: border-box;
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    height: 5rem;
+    width: 20rem;
+    color: #9b9b9b;
+
+}
+
+.email {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    margin: 0 1rem 2rem; /* Adicione margens para separar os cards */
+    padding: 10px;
+    border: 1px solid #414141;    box-sizing: border-box;
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    height: 5rem;
+    width: 20rem;
+    color: #9b9b9b;
+
+}
+
+
+.socia {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    margin: 0 1rem 2rem; /* Adicione margens para separar os cards */
+    padding: 10px;
+    border: 1px solid #414141;    box-sizing: border-box;
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    height: 5rem;
+    width: 20rem;
+    color: #9b9b9b;
+
+}
+
+/* Estilizando o ícone do Instagram */
+.fa-instagram {
+    color: #bc2a8d; /* Substitua pela cor desejada */
+}
+
+/* Estilizando o ícone do Facebook */
+.fa-facebook {
+    color: #1877f2; /* Substitua pela cor desejada */
+}
+
+
+/* Aumentando o tamanho do ícone do Instagram */
+.fa-instagram {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; /* Substitua pelo tamanho desejado */
+}
+
+/* Aumentando o tamanho do ícone do Facebook */
+.fa-facebook {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; /* Substitua pelo tamanho desejado */
+}
+
+
+/* Adicionando espaço entre os ícones */
+.fa-instagram, .fa-facebook {
+    margin-right: 10px; /* Substitua pelo espaçamento desejado */
+}
+
+
+.socia a {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; /* Substitua pelo tamanho desejado */
+    color: #c0c0c0;
+}
+
+
+.avaliacao{
+    display: flex; /* Exibe os cards em uma linha */
+    justify-content: center; /* Centralize os cards horizontalmente */
+    flex-wrap: wrap; /* Quebre para a próxima linha se o espaço for insuficiente */
+
+}
+
+.avaliacao h6{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; /* Substitua pelo tamanho desejado */
+    color: #c0c0c0;
+
+}
+
+
+/* Estilize o contêiner do catálogo */
+.clientes {
+    display: flex; /* Exibe os cards em uma linha */
+    justify-content: center; /* Centralize os cards horizontalmente */
+    flex-wrap: wrap; /* Quebre para a próxima linha se o espaço for insuficiente */
+    margin-top: 2rem;
+}
+
+/* Estilize cada card */
+.clien {
+    border-radius: 30px;
+    margin: 0 1rem 2rem; /* Adicione margens para separar os cards */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; /* Centralize o conteúdo horizontalmente */
+    height: 40rem;
+    width: 25rem;
+    margin: 2rem;
+}
+
+.clien img {
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 8rem;
+    width: 8rem;
+}
+
+.clien h3 {
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.clien p {
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-left: 2rem;
+
+}
+
+
+
+
+
+footer {
+    background-color: #33333356; /* Cor de fundo do rodapé */
+    color: #646464; /* Cor do texto do rodapé */
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
