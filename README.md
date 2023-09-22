@@ -23,6 +23,6 @@ Aproveite a visita à landing page New Home e fique à vontade para explorar o c
 #desenvolvimentoweb #landingpage #webdesign #imaginarycompany
 
 
-![print-fullscream](https://github.com/eudirianaju/LandingPage-NewHome/assets/100884185/59b54df3-b1cf-416c-a105-95ae8c4171ee)
+![print-fullscream](https://github.com/eudirianaju/LandingPage-NewHome/assets/100884185/430f637a-fa6a-46e1-b461-3a2d68cc387d)
 
 
